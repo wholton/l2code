@@ -1,0 +1,29 @@
+- Write a method which capitalizes the first letter of every word in a sentence.
+    # Example:
+        # Input: "Let's test this works, okay?"
+        # Output: "Let's Test This Works, Okay?"
+
+- Write a method that removes duplicate characters from a string, preserving order.
+    # Example:
+        # Input: "Let's test this works, okay?"
+        # Output: "Let's hiwork,ay?"
+
+- Create a generic bag data structure. I should be able to add entries and get the amount of times that entry was added
+to the bag. I should also be able to get a set of all entries. Use the following to test your code - your classes API should
+mirror this.
+    # Bag<String> bag = new Bag<>();
+    # bag.add("X");
+    # bag.add("X");
+    # bag.add("Y");
+    # System.out.println(bag.get("X")); // prints 2
+    # System.out.println(bag.get("Y")); // prints 1
+    # System.out.println(bag.get("Z")); // prints 0
+    # System.out.println(bag.getEntries()); // should print X, Y - formatting doesn't matter.
+    # Bag<Integer> integerBag = new Bag<>();
+    # integerBag.add(1);
+    # integerBag.add(2);
+    # integerBag.add(3);
+    # System.out.println(integerBag.get(1)); // prints 1
+    # System.out.println(integerBag.get(2)); // prints 1
+    # System.out.println(integerBag.get(3)); // prints 1
+    # System.out.println(integerBag.getEntries()); // should print 1, 2, 3 - formatting doesn't matter.

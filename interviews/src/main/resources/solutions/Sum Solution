@@ -1,0 +1,38 @@
+Dynamic Programming / Memoization Solution:
+       Time complexity: O(N*M), where N is the sum and M is the length of the numbers array (because of the two loops)
+       Space complexity: O(N), where N is the sum (because of the size of the memo)
+       Questions:
+           - Why is this solution better than a recursive one? It uses memoization to avoid recalculating earlier sub-problems.
+----------------------------------------------------------------------------------------------------------------------------
+public class Sum {
+    public static int getNumberOfWaysToSumWithRepetition(int[] numbers, int sum) {
+        int[] memo = new int[sum + 1];
+        memo[0] = 1;
+        for (int numberIndex = 0; numberIndex < numbers.length; numberIndex++) {
+            for (int currentSum = 1; currentSum <= sum; currentSum++) {
+                if (currentSum >= numbers[numberIndex]) {
+                    memo[currentSum] += memo[currentSum - numbers[numberIndex]];
+                }
+            }
+        }
+        return memo[sum];
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Recursive Solution:
+        Time complexity: O(2^N), where N is the sum.
+        Space complexity: ?
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------

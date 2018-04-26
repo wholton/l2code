@@ -1,0 +1,16 @@
+Deadlock caused by all docks having their left lock locked at the same time.
+    - Could have one dock grab right first.
+                # spaceDock = new SpaceDock[size];
+                # for (int i = 0; i < size - 1; i++) {
+                #    spaceDock[i] = new SpaceDock(i, locks[i], locks[i+1]);
+                # }
+                # int last = size-1;
+                # spaceDock[last] = new SpaceDock(last, locks[0], locks[last]);
+    - Use ReentrantLocks + timeouts to give up after waiting for short period.
+
+Starvation caused by no wait time between between hailing.
+    - Could have threads sleep after finishing, in order to allow those waiting to go first
+        # while (true) {
+        #    System.out.println("Dock number " + dockNumber + " is hailing ships!");
+        #    Thread.sleep(1);
+    - Could change to ReentrantLock and use fair sharing

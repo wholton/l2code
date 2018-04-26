@@ -1,0 +1,50 @@
+public class BowlingGame {
+
+    private static final int MAXIMUM_NUMBER_OF_ROLLS = 21;
+    private static final int NUMBER_OF_FRAMES = 10;
+    private static final int NUMBER_OF_PINS_IN_FRAME = 10;
+
+    private final int[] rolls = new int[MAXIMUM_NUMBER_OF_ROLLS];
+    private int currentRoll = 0;
+
+    public void roll(int pins) {
+        this.rolls[currentRoll++] = pins;
+    }
+
+    public int score() {
+        int score = 0;
+
+        for (int frame = 0, firstRollOfFrameIndex = 0; frame < NUMBER_OF_FRAMES; frame++) {
+            if (isStrike(firstRollOfFrameIndex)) {
+                score += 10 + calculateStrikeBonus(firstRollOfFrameIndex);
+                firstRollOfFrameIndex++;
+            } else if (isSpare(firstRollOfFrameIndex)) {
+                score += 10 + calculateSpareBonus(firstRollOfFrameIndex);
+                firstRollOfFrameIndex += 2;
+            } else {
+                score += rolls[firstRollOfFrameIndex] + rolls[firstRollOfFrameIndex + 1];
+                firstRollOfFrameIndex += 2;
+            }
+        }
+
+        return score;
+    }
+
+    private boolean isSpare(int firstRollOfFrameIndex) {
+        return rolls[firstRollOfFrameIndex] + rolls[firstRollOfFrameIndex + 1] == NUMBER_OF_PINS_IN_FRAME;
+    }
+
+    private int calculateSpareBonus(int firstRollOfFrameIndex) {
+        int firstRollOfNextFrame = firstRollOfFrameIndex + 2;
+        return rolls[firstRollOfNextFrame];
+    }
+
+    private boolean isStrike(int firstRollOfFrameIndex) {
+        return rolls[firstRollOfFrameIndex] == NUMBER_OF_PINS_IN_FRAME;
+    }
+
+    private int calculateStrikeBonus(int firstRollOfFrameIndex) {
+        int firstRollOfNextFrame = firstRollOfFrameIndex + 1;
+        return rolls[firstRollOfNextFrame] + rolls[firstRollOfNextFrame + 1];
+    }
+}

@@ -1,0 +1,10 @@
+- What's the relationship between the hashCode and equals methods?
+
+- What's the difference between using == on an object as opposed to the equals method?
+
+- What's actually happening when you reference a string literal?
+
+- What's the difference between the extends keyword and implements keyword? What's the difference between an abstract class
+and an interface?
+
+- What's the difference between a checked and unchecked exception?
