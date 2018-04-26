@@ -2,6 +2,12 @@
 
 Learning/Teaching Java with friends.
 
+## Layout:
+
+- Lessons will encompass a particular topic and include a quiz and a small project.
+- Projects will encompass a set of topics and get you into the programmer frame of mind.
+- Interviews are meant to prepare you to get a job. I recommend staying out of this module and having someone who has already done the interviews to run you through them when you're ready.
+
 ## Resources:
 - [Oracle tutorials](https://docs.oracle.com/javase/tutorial/java/index.html)
 - [Learning Java 4th Edition](http://it.guldstadsgymnasiet.se/java/Learning%20Java,%204th%20Edition.pdf)
