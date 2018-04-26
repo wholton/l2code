@@ -2,7 +2,7 @@ What is programming?
 
 How do programs run on a computer?
 
-What is the underlying represenation?
+What is the underlying representation?
 
 What is the JVM, and why is it useful?
 
