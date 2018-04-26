@@ -15,3 +15,5 @@ Learning/Teaching Java with friends.
 - Youtube series (remember you can change to 1.25, 1.5, 2x speed if it is too slow):
   - https://www.youtube.com/watch?v=_r4AwR-lPEw&list=PL4x48ZxOWZBT-PotFD57rM40daTSLgYU9&index=2
   - https://www.youtube.com/watch?v=TBWX97e1E9g&index=1&list=PLE7E8B7F4856C9B19&t=0s
+- Random:
+  - Characters, Symbols, and the Unicode Miracle: https://www.youtube.com/watch?v=MijmeoH9LT4
