@@ -1,0 +1,22 @@
+What is programming?
+
+How do programs run on a computer?
+
+What is the underlying represenation?
+
+What is the JVM, and why is it useful?
+
+How do you print to the console?
+
+What is the order in which code executes?
+
+What are the (primitive) data types of Java?
+
+How do you define a variable and what are the rules around such definitions?
+
+How do you manipulate a variable?
+
+How do different primitive data types interact with one another?
+
+
+

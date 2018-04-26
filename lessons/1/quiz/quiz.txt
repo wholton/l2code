@@ -1,0 +1,45 @@
+1. Describe the following primitive variable types and their uses.
+	- char
+	- int
+	- long
+	- double
+	- boolean
+
+2. Write some example code using operators on primitive variables.
+
+3. How can you shorten "x = x + 3;"?
+
+4. What is the value of "result" at line 2 and 4?
+	int x = 5 * 3 - 4;
+	boolean result = x > 10 && x < 20 || x == -5;
+	x *= 2;
+	result &= x >= -10 || x <= 30;
+
+5. What is the value of ac? (hint: search for articles/videos about what ASCII is)
+	char ac = 'A' + 1;
+
+6. Why doesn't the following work?
+	int x = 2000;
+	long y = x;
+	x = y;
+
+7. What is the value of y?
+	double x = 10.5;
+	int y = 0;
+	y += x;
+
+8. Why doesn't this work?
+	int x = 3;
+	int y = 4;
+	int x = 5;
+
+9. Why doesn't this work?
+	int x = 1;
+	int y;
+	int x *= y;
+
+10. Can you define a variable without a type?
+
+11. What is the JVM? What is the benefit of it?
+
+12. Describe how Java code is executed on a computer. You do not have to be super detailed, but you should cover the major steps.
