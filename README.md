@@ -1,5 +1,6 @@
 # l2code
 
+Learning/Teaching Java with friends.
 
 ## Resources:
 - [Oracle tutorials](https://docs.oracle.com/javase/tutorial/java/index.html)
