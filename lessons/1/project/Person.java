@@ -2,7 +2,7 @@
 public class Person {
 
 	/*
-	 * Define variables to represent your age, sex, credit card balance, 
+	 * Using primitives, define variables to represent your age, sex, credit card balance, 
 	 * an 11 digit id (give yourself a random one), and if you have children
 	 */
 	public static void main(String[] args) {
