@@ -1,0 +1,9 @@
+Strings.
+Unicode.
+
+
+
+
+https://en.wikibooks.org/wiki/Java_Programming/API/java.lang.String
+https://en.wikibooks.org/wiki/Java_Programming/Unicode
+https://www.youtube.com/watch?v=MijmeoH9LT4

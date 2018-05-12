@@ -1,0 +1,14 @@
+Comments.
+
+Coding standards.
+
+Debugging.
+
+Intellij shortcuts.
+
+
+
+
+https://en.wikibooks.org/wiki/Java_Programming/Comments
+https://google.github.io/styleguide/javaguide.html
+https://stackoverflow.com/questions/294167/what-are-the-most-useful-intellij-idea-keyboard-shortcuts

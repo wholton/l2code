@@ -1,0 +1,21 @@
+Programming paradigms.
+
+Classes and objects.
+
+Constructors.
+
+Getters and Setters.
+
+Interactions between classes.
+
+Scope.
+
+
+
+
+
+
+
+https://en.wikibooks.org/wiki/Java_Programming/Classes,_Objects_and_Types
+https://en.wikibooks.org/wiki/Java_Programming/Packages
+https://en.wikibooks.org/wiki/Java_Programming/Object_Lifecycle

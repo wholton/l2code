@@ -18,5 +18,29 @@ How do you manipulate a variable?
 
 How do different primitive data types interact with one another?
 
+What is the difference between a local variable and a field?
 
+What is the difference between a static field and a non-static field?
+
+What is the difference between a method and a field?
+
+What is the difference between a static method and a non-static method?
+
+How do static and non-static fields and methods interact?
+
+
+
+
+
+https://www.computerscience.gcse.guru/theory/von-neumann-architecture
+
+
+https://en.wikibooks.org/wiki/Java_Programming/Statements
+https://en.wikibooks.org/wiki/Java_Programming/Variables
+https://en.wikibooks.org/wiki/Java_Programming/Primitive_Types
+https://en.wikibooks.org/wiki/Java_Programming/Arithmetic_expressions
+https://en.wikibooks.org/wiki/Java_Programming/Boolean_expressions
+https://en.wikibooks.org/wiki/Java_Programming/Conditional_blocks
+https://en.wikibooks.org/wiki/Java_Programming/Literals
+https://en.wikibooks.org/wiki/Java_Programming/Methods
 

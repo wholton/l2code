@@ -1,0 +1,5 @@
+Generics.
+
+Collections (List, Map, etc).
+
+Iterators.

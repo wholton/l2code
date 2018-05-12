@@ -1,0 +1,9 @@
+Miscillaneous useful libraries:
+Scanner
+Math
+Random
+BigInteger
+
+https://en.wikibooks.org/wiki/Java_Programming/Mathematical_functions
+https://en.wikibooks.org/wiki/Java_Programming/Random_numbers
+https://en.wikibooks.org/wiki/Java_Programming/Large_numbers

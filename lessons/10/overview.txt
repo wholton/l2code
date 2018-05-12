@@ -1,0 +1,9 @@
+Throwing/catching exceptions.
+
+Checked/Unchecked exceptions.
+
+Common runtime exceptions (ArrayOutOfBounds, NullPointer)
+
+Reading a stack trace.
+
+Chained exceptions.

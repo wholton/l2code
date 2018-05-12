@@ -1,0 +1,13 @@
+Miss any keywords? https://en.wikibooks.org/wiki/Java_Programming/Keywords
+
+Maven.
+
+Log4j.
+
+Slf4j.
+
+Dependency Injection
+
+Dependency management
+
+Guava, Commons
